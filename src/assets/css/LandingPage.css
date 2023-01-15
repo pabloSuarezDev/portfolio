@@ -1,0 +1,33 @@
+main.LandingPage h1 strong { color: #fa4529; }
+
+main.LandingPage span#help__you {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #444;
+}
+
+main.LandingPage p#contact__with--me a {
+  text-decoration: none;
+  color: white;
+  padding: .75rem;
+  background-color: #fa4529;
+  border-radius: .5rem;
+  transition: all .3s;
+}
+
+main.LandingPage p#contact__with--me a:hover {
+  color: #fa4529;
+  background-color: black;
+}
+
+main.LandingPage h2 { font-weight: 400; }
+
+main.LandingPage section.my__projects h2 { 
+  font-size: 2rem;
+  font-style: italic;
+}
+
+main.LandingPage ul.tech__list { font-size: 1.25rem; }
+
+main.LandingPage ul.tech__list h3 { margin: .5rem; }

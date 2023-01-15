@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+
+body {
+  width: 90%;
+  padding-top: 1rem;
+  margin: auto;
+  font-family: -apple-system, Georgia, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main { margin-bottom: 3rem; }
+
+.heading { 
+  font-size: 3rem;
+  font-weight: 400;
+}

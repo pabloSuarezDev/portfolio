@@ -1,0 +1,6 @@
+.Curriculum { 
+  display: flex; 
+  justify-content: center;
+}
+
+.Curriculum img { width: 50%; }

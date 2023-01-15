@@ -1,0 +1,41 @@
+main.Contact h1 { text-align: center; }
+
+.Contact form {
+  width: 50%;
+  margin: auto;
+  padding: 1.5rem;
+  border-radius: .5rem;
+  background-color: #f2f2f2;
+}
+
+.Contact input[type="text"], 
+.Contact input[type="email"], 
+.Contact select, 
+.Contact textarea {
+  width: 100%;
+  padding: .75rem;
+  border: 1px solid #ccc;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  resize: vertical;
+  outline: none;
+}
+
+.Contact input[type="submit"] {
+  background-color: #fa4529;
+  color: white;
+  padding: .75rem 1.25rem;
+  border: none;
+  border-radius: .25rem;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.Contact input[type="submit"]:hover {   
+  background-color: black;
+  color: #fa4529;
+}
+
+.Contact a { text-decoration: none; }
